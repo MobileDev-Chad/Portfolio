@@ -243,7 +243,9 @@ body {
 .about {
   text-align: justify;
 }
-
+.about-heading {
+  padding-top: 5rem;
+}
 .about-text {
   width: 60%;
   display: flex;
@@ -533,9 +535,7 @@ footer p {
 }
 
 @media (max-width: 800px) {
-  .about-heading {
-    padding-top: 5rem;
-  }
+ 
   .about-text {
     width: 90%;
   }
