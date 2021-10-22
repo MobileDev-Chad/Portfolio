@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="/">Chadwin A.</a>
         </div>
         <div className="nav-list" onClick={() => setShowNav(!showNav)}>
-          <a href="#" className="nav-link">
+          <a href="#home" className="nav-link">
             Home
           </a>
           <a href="#about" className="nav-link">
