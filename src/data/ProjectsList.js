@@ -1,8 +1,8 @@
 import Img1 from "../Images/project-1.jpg";
 import Img2 from "../Images/project-2.jpg";
-import Img3 from "../Images/project-3.jpg";
+import Img3 from "../Images/project-0.jpg";
 import Img4 from "../Images/project-4.jpg";
-import Img5 from "../Images/project-5.jpg";
+import Img5 from "../Images/project-0.jpg";
 
 export const ProjectsList = [
   {
