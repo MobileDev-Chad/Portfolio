@@ -46,8 +46,8 @@ export const ProjectsList = [
     name: "🚧SmashBros. Ecom🚧",
     tech: "ReactJS-Cart",
     img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
-    link: "https://www.youtube.com/watch?v=9Q7wy8r3i8w",
-    hub: "https://www.youtube.com/watch?v=9Q7wy8r3i8w",
+    link: "https://github.com/WebDev-Chad/SmashBros.-Ecommerce",
+    hub: "https://github.com/WebDev-Chad/SmashBros.-Ecommerce",
     fade: "fade-up",
   },
 ];
