@@ -15,11 +15,7 @@ const Contact = () => {
           <h1 className="section-heading-two">Get in touch</h1>
         </div>
 
-        <form
-          className="contact-form"
-          action="https://formsubmit.co/chadwin.allotey@gmail.com"
-          method="POST"
-        >
+        <form className="contact-form" action="mailto:chadwin.allotey@gmail.com" method="POST">
           <input type="text" placeholder="Name*" />
           <input type="email" placeholder="Email*" />
           <textarea placeholder="Message*"></textarea>
