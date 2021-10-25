@@ -1,7 +1,10 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import "aos/dist/aos.css";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("contactMe");
+ 
   return (
     <>
       <section
@@ -15,18 +18,24 @@ const Contact = () => {
           <h1 className="section-heading-two">Get in touch</h1>
         </div>
 
-        <form className="contact-form" action="mailto:chadwin.allotey@gmail.com" method="POST">
-          <input type="text" placeholder="Name*" />
-          <input type="email" placeholder="Email*" />
-          <textarea placeholder="Message*"></textarea>
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <input type="text" name="name" id="name" placeholder="Name*" />
+          <input id="email" type="email" name="email" placeholder="Email*" />
+          <ValidationError style={{color:"white"}}field="email" prefix="Email" errors={state.errors} />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message*"
+          ></textarea>
+
           <input
             type="submit"
-            value="Submit"
             className="contact-form-btn"
-            target="_blank"
-            form="contactForm"
+            disabled={state.submitting}
             rel="noopener noreferrer"
           />
+          <ValidationError errors={state.errors} />
+          <div className="form-submitted">{state.succeeded && 'Submited - Thanks!'}</div>
         </form>
       </section>
       <footer className="center">

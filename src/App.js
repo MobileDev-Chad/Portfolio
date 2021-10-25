@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import { FormspreeProvider } from "@formspree/react";
 import "aos/dist/aos.css";
 import "./App.css";
 
@@ -21,7 +22,10 @@ const App = () => {
       <Intro />
       <About />
       <Portfolio />
-      <Contract />
+      <FormspreeProvider project="1796487288750866044">
+        <Contract />
+      </FormspreeProvider>
+      
     </div>
   );
 };

@@ -472,6 +472,11 @@ body {
   color: #ffdd00;
 }
 
+.form-submitted {
+text-align: center;
+font-size: 2rem;
+color: #eee;
+}
 .socialIcons {
   display: flex;
 }
