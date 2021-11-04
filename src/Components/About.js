@@ -16,8 +16,8 @@ const About = () => {
           <div className="about-text-left">
             Hi, I'm <b>Chadwin Allotey</b>
             <p data-aos="fade-up" data-aos-once="true">
-              I'm a software developer with a passion for frontend. I enjoy
-              developing simple, clean and slick websites that provide real
+              I'm a software developer with a passion for learning. I enjoy
+              developing simple, clean and slick apps that provide real
               value to the end user. As a new developer I hope you can take the
               time to look through my portfolio and determine if I would be a
               suitible candidate for your company. I'm eager to learn and grow

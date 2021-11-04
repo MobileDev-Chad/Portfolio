@@ -10,12 +10,16 @@ export const SkillsList = [
     id: 2,
   },
   {
-    icon: <i className="devicon-sass-original" style={{ color: "#ff00f6" }}></i>,
+    icon: (
+      <i className="devicon-sass-original" style={{ color: "#ff00f6" }}></i>
+    ),
     heading: "SASS",
     id: 3,
   },
   {
-    icon: <i className="devicon-javascript-plain" style={{ color: "#ffd800" }}></i>,
+    icon: (
+      <i className="devicon-javascript-plain" style={{ color: "#ffd800" }}></i>
+    ),
     heading: "Javascript",
     id: 4,
   },
@@ -25,8 +29,10 @@ export const SkillsList = [
     id: 5,
   },
   {
-    icon: <i className="devicon-react-original" style={{ color: "#00d8ff" }}></i>,
-    heading: "React",
+    icon: (
+      <i className="devicon-react-original" style={{ color: "#00d8ff" }}></i>
+    ),
+    heading: "React / Native",
     id: 6,
   },
   {
@@ -40,9 +46,16 @@ export const SkillsList = [
     id: 8,
   },
   {
-    icon: <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>,
+    icon: (
+      <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>
+    ),
+
     heading: "Bootstrap",
     id: 9,
   },
+  {
+    icon: <i className="fas fa-fire-alt" style={{ color: "#ff6200" }}></i>,
+    heading: "Firebase",
+    id: 10,
+  },
 ];
-
