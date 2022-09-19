@@ -41,8 +41,8 @@ export const SkillsList = [
     id: 6,
   },
   {
-    icon: <i className="fas fa-code" style={{ color: "#eee" }}></i>,
-    heading: "Rest API",
+    icon:  <img src={Svg1} alt="Firebase" height="50" width="50" className="filter-purple"></img>,
+    heading: "Redux",
     id: 7,
   },
   {
@@ -55,9 +55,10 @@ export const SkillsList = [
     heading: "Bootstrap",
     id: 9,
   },
+  
   {
-    icon:  <img src={Svg1} alt="Firebase" height="50" width="50" className="filter-purple"></img>,
-    heading: "Redux",
+    icon: <i className="fas fa-code" style={{ color: "#eee" }}></i>,
+    heading: "Rest API",
     id: 10,
   },
   {
