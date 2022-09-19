@@ -43,6 +43,7 @@ export const SkillsList = [
   },
   {
     icon: <img src={Svg3} alt="Firebase" height="50" width="50"></img>,
+    heading: "React Native",
     id: 7,
   },
   {
