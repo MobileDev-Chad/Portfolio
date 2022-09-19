@@ -1,3 +1,6 @@
+import Svg1 from "../Images/firebase.svg";
+
+
 export const SkillsList = [
   {
     icon: <i className="devicon-html5-plain" style={{ color: "#ff6200" }}></i>,
@@ -48,15 +51,12 @@ export const SkillsList = [
     id: 8,
   },
   {
-    icon: (
-      <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>
-    ),
-
+    icon: <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>,
     heading: "Bootstrap",
     id: 9,
   },
   {
-    icon: <i className="fas fa-fire-alt" style={{ color: "#ff6200" }}></i>,
+    icon:  <Img src={Svg1} alt="Firebase"/>,
     heading: "Firebase",
     id: 10,
   },
