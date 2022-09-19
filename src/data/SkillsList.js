@@ -1,5 +1,6 @@
 import Svg1 from "../Images/redux.png";
 import Svg2 from "../Images/firebase.svg";
+import Svg3 from "../Images/react-native.svg";
 
 export const SkillsList = [
   {
@@ -37,34 +38,40 @@ export const SkillsList = [
     icon: (
       <i className="devicon-react-original" style={{ color: "#00d8ff" }}></i>
     ),
-    heading: "React / Native",
+    heading: "React",
     id: 6,
   },
   {
-    icon:  <img src={Svg1} alt="Firebase" height="50" width="50"></img>,
-    heading: "Redux",
+    icon: <img src={Svg3} alt="Firebase" height="50" width="50"></img>,
+    heading: "React Native",
     id: 7,
+  },
+  {
+    icon: <img src={Svg1} alt="Firebase" height="50" width="50"></img>,
+    heading: "Redux",
+    id: 8,
   },
   {
     icon: <i className="devicon-git-plain" style={{ color: "#ff001e" }}></i>,
     heading: "Git",
-    id: 8,
-  },
-  {
-    icon: <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>,
-    heading: "Bootstrap",
     id: 9,
   },
-  
+  {
+    icon: (
+      <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>
+    ),
+    heading: "Bootstrap",
+    id: 10,
+  },
+
   {
     icon: <i className="fas fa-code" style={{ color: "#eee" }}></i>,
     heading: "Rest API",
-    id: 10,
-  },
-  {
-    icon:  <img src={Svg2} alt="Firebase" height="50" width="50"></img>,
-    heading: "Firebase",
     id: 11,
   },
- 
+  {
+    icon: <img src={Svg2} alt="Firebase" height="50" width="50"></img>,
+    heading: "Firebase",
+    id: 12,
+  },
 ];
