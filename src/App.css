@@ -313,6 +313,9 @@ body {
 .skills-title p {
   font-size: 1.75rem !important;
 }
+.filter-orange {
+  color:#FFCA28;
+}
 /* End of About Section */
 
 /* Projects */
