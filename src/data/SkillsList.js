@@ -25,7 +25,7 @@ export const SkillsList = [
   },
   {
     icon: (
-      <i className="devicon-typescript-plain" style={{ color: "#000cff" }}></i>
+      <i className="devicon-typescript-plain" style={{ color: "#3178c6" }}></i>
     ),
     heading: "TypeScript",
     id: 5,
