@@ -1,8 +1,6 @@
 import React from "react";
 import { ProjectsList } from "../data/ProjectsList";
-import 'aos/dist/aos.css';
-
-
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
   return (
@@ -17,7 +15,7 @@ const Portfolio = () => {
           data-aos="fade-up"
           data-aos-once="false"
         >
-          {ProjectsList.map(({id, fade, name,tech, img, link,hub}) => (
+          {ProjectsList.map(({ id, fade, name, tech, img, link, hub }) => (
             <div
               className="project"
               key={id}

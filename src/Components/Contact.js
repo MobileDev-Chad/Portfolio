@@ -52,7 +52,7 @@ const Contact = () => {
           </li>
           <li>
             <a
-              href="https://github.com/WebDev-Chad"
+              href="https://github.com/MobileDev-Chad"
               target="_blank"
               title="Go to Chadwin's Github"
               rel="noopener noreferrer"
@@ -62,7 +62,7 @@ const Contact = () => {
           </li>
           <li>
             <a
-              href="mailto:chadwin.allotey@gmail.com.com"
+              href="mailto:chadwin.allotey@gmail.com"
               target="_blank"
               title="Email Chad"
               rel="noopener noreferrer"

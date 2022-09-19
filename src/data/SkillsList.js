@@ -20,12 +20,14 @@ export const SkillsList = [
     icon: (
       <i className="devicon-javascript-plain" style={{ color: "#ffd800" }}></i>
     ),
-    heading: "Javascript",
+    heading: "JavaScript",
     id: 4,
   },
   {
-    icon: <i className="devicon-jquery-plain" style={{ color: "#000cff" }}></i>,
-    heading: "Jquery",
+    icon: (
+      <i className="devicon-typescript-plain" style={{ color: "#000cff" }}></i>
+    ),
+    heading: "TypeScript",
     id: 5,
   },
   {
