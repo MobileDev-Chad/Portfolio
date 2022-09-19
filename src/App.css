@@ -314,7 +314,8 @@ body {
   font-size: 1.75rem !important;
 }
 .filter-orange {
-  filter: invert(91%) sepia(27%) saturate(3109%) hue-rotate(335deg) brightness(105%) contrast(101%);
+  filter: invert(61%) sepia(29%) saturate(4288%) hue-rotate(360deg)
+    brightness(103%) contrast(103%);
 }
 /* End of About Section */
 
@@ -476,9 +477,9 @@ body {
 }
 
 .form-submitted {
-text-align: center;
-font-size: 2rem;
-color: #eee;
+  text-align: center;
+  font-size: 2rem;
+  color: #eee;
 }
 .socialIcons {
   display: flex;
