@@ -56,7 +56,7 @@ export const SkillsList = [
     id: 9,
   },
   {
-    icon:  <Img src={Svg1} alt="Firebase" height="50" width="50" class="filter-orange"/>,
+    icon:  <img src={Svg1} alt="Firebase" height="50" width="50" className="filter-orange"></img>,
     heading: "Firebase",
     id: 10,
   },
