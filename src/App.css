@@ -314,7 +314,7 @@ body {
   font-size: 1.75rem !important;
 }
 .filter-orange {
-  color:#FFCA28;
+  filter: invert(91%) sepia(27%) saturate(3109%) hue-rotate(335deg) brightness(105%) contrast(101%);
 }
 /* End of About Section */
 

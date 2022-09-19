@@ -1,5 +1,4 @@
 import Svg1 from "../Images/firebase.svg";
-import "../App.css";
 
 export const SkillsList = [
   {
