@@ -313,6 +313,10 @@ body {
 .skills-title p {
   font-size: 1.75rem !important;
 }
+.filter-purple {
+  filter: invert(11%) sepia(84%) saturate(4658%) hue-rotate(293deg)
+    brightness(85%) contrast(111%);
+}
 .filter-orange {
   filter: invert(61%) sepia(29%) saturate(4288%) hue-rotate(360deg)
     brightness(103%) contrast(103%);

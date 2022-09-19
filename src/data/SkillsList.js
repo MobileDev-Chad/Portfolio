@@ -1,4 +1,5 @@
-import Svg1 from "../Images/firebase.svg";
+import Svg1 from "../Images/redux.svg";
+import Svg2 from "../Images/firebase.svg";
 
 export const SkillsList = [
   {
@@ -55,8 +56,14 @@ export const SkillsList = [
     id: 9,
   },
   {
-    icon:  <img src={Svg1} alt="Firebase" height="50" width="50" className="filter-orange"></img>,
-    heading: "Firebase",
+    icon:  <img src={Svg1} alt="Firebase" height="50" width="50" className="filter-purple"></img>,
+    heading: "Redux",
     id: 10,
   },
+  {
+    icon:  <img src={Svg2} alt="Firebase" height="50" width="50" className="filter-orange"></img>,
+    heading: "Firebase",
+    id: 11,
+  },
+ 
 ];
