@@ -65,7 +65,6 @@ export const SkillsList = [
   },
   {
     icon: <SiFirebase />,
-    heading: "Firebase",
     id: 11,
   },
 ];
