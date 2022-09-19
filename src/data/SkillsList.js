@@ -1,7 +1,3 @@
-import Svg1 from "../Images/redux.png";
-import Svg2 from "../Images/firebase.svg";
-import Svg3 from "../Images/react-native.svg";
-
 export const SkillsList = [
   {
     icon: <i className="devicon-html5-plain" style={{ color: "#ff6200" }}></i>,
@@ -42,7 +38,7 @@ export const SkillsList = [
     id: 6,
   },
   {
-    icon: <img src={Svg3} alt="Firebase" height="70" width="70"></img>,
+    icon: <img src={Svg3} alt="Firebase" height="50" width="50"></img>,
     id: 7,
   },
   {
@@ -69,7 +65,7 @@ export const SkillsList = [
     id: 11,
   },
   {
-    icon: <img src={Svg2} alt="Firebase" height="50" width="50"></img>,
+    icon: <i className="si si-simpleicons si--color"></i>,
     heading: "Firebase",
     id: 12,
   },
