@@ -6,7 +6,7 @@ import Svg5 from "../Images/react.svg";
 import Svg6 from "../Images/react-native.svg";
 import Svg7 from "../Images/redux.svg";
 import Svg8 from "../Images/git.svg";
-import Svg9 from "../Images/bootstrap.svg";
+import Svg9 from "../Images/mongodb.svg";
 import Svg10 from "../Images/firebase.svg";
 
 export const SkillsList = [
@@ -52,8 +52,8 @@ export const SkillsList = [
     id: 9,
   },
   {
-    icon: <img src={Svg9} alt="Bootstrap" height="50" width="50"></img>,
-    heading: "Bootstrap",
+    icon: <img src={Svg9} alt="MongoDb" height="50" width="50"></img>,
+    heading: "MongoDb",
     id: 10,
   },
 
