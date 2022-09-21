@@ -1,64 +1,58 @@
-import Svg1 from "../Images/redux.png";
-import Svg2 from "../Images/firebase.svg";
-import Svg3 from "../Images/react-native.svg";
+import Svg1 from "../Images/html.png";
+import Svg2 from "../Images/css-3.svg";
+import Svg3 from "../Images/javascript.svg";
+import Svg4 from "../Images/typescript.svg";
+import Svg5 from "../Images/react.svg";
+import Svg6 from "../Images/react-native.svg";
+import Svg7 from "../Images/redux.svg";
+import Svg8 from "../Images/git.svg";
+import Svg9 from "../Images/bootstrap.svg";
+import Svg10 from "../Images/firebase.svg";
 
 export const SkillsList = [
   {
-    icon: <i className="devicon-html5-plain" style={{ color: "#ff6200" }}></i>,
+    icon: <img src={Svg1} alt="HTML" height="50" width="50"></img>,
     heading: "HTML",
     id: 1,
   },
   {
-    icon: <i className="devicon-css3-plain" style={{ color: "#0036ff" }}></i>,
+    icon: <img src={Svg2} alt="CSS" height="50" width="50"></img>,
+
     heading: "CSS",
     id: 2,
   },
   {
-    icon: (
-      <i className="devicon-sass-original" style={{ color: "#ff00f6" }}></i>
-    ),
-    heading: "SASS",
-    id: 3,
-  },
-  {
-    icon: (
-      <i className="devicon-javascript-plain" style={{ color: "#ffd800" }}></i>
-    ),
+    icon: <img src={Svg3} alt="JavaScript" height="50" width="50"></img>,
     heading: "JavaScript",
     id: 4,
   },
   {
-    icon: (
-      <i className="devicon-typescript-plain" style={{ color: "#3178c6" }}></i>
-    ),
+    icon: <img src={Svg4} alt="TypeScript" height="50" width="50"></img>,
     heading: "TypeScript",
     id: 5,
   },
   {
-    icon: (
-      <i className="devicon-react-original" style={{ color: "#00d8ff" }}></i>
-    ),
+    icon: <img src={Svg5} alt="React" height="50" width="50"></img>,
+
     heading: "React",
     id: 6,
   },
   {
-    icon: <img src={Svg3} alt="React Native" height="50" width="50"></img>,
+    icon: <img src={Svg6} alt="React Native" height="50" width="50"></img>,
     id: 7,
   },
   {
-    icon: <img src={Svg1} alt="Redux" height="50" width="50"></img>,
+    icon: <img src={Svg7} alt="Redux" height="50" width="50"></img>,
     heading: "Redux",
     id: 8,
   },
   {
-    icon: <i className="devicon-git-plain" style={{ color: "#ff001e" }}></i>,
+    icon: <img src={Svg8} alt="Git" height="50" width="50"></img>,
     heading: "Git",
     id: 9,
   },
   {
-    icon: (
-      <i className="devicon-bootstrap-plain" style={{ color: "#9000ff" }}></i>
-    ),
+    icon: <img src={Svg9} alt="Bootstrap" height="50" width="50"></img>,
     heading: "Bootstrap",
     id: 10,
   },
@@ -69,7 +63,7 @@ export const SkillsList = [
     id: 11,
   },
   {
-    icon: <img src={Svg2} alt="Firebase" height="50" width="50"></img>,
+    icon: <img src={Svg10} alt="Firebase" height="50" width="50"></img>,
     heading: "Firebase",
     id: 12,
   },
