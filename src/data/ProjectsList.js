@@ -11,7 +11,7 @@ export const ProjectsList = [
     tech: "ReactJS-API",
     img: <img src={Img1} alt="Photoshop" className="project-img"></img>,
     link: "https://cooking-app-1.netlify.app",
-    hub: "https://github.com/WebDev-Chad/CookingApp",
+    hub: "https://github.com/MobileDev-Chad/CookingApp",
     fade: "fade-up",
   },
   {
@@ -20,7 +20,7 @@ export const ProjectsList = [
     tech: "HTML/CSS/Javascript",
     img: <img src={Img2} alt="Photoshop" className="project-img"></img>,
     link: "https://paypal-clone-2.netlify.app",
-    hub: "https://github.com/WebDev-Chad/Paypal-Clone",
+    hub: "https://github.com/MobileDev-Chad/Paypal-Clone",
     fade: "fade-down",
   },
   {
@@ -29,7 +29,7 @@ export const ProjectsList = [
     tech: "ReactJS-API",
     img: <img src={Img3} alt="Photoshop" className="project-img"></img>,
     link: "https://events-near-me-3.netlify.app",
-    hub: "https://github.com/WebDev-Chad/Events-Near-Me",
+    hub: "https://github.com/MobileDev-Chad/Events-Near-Me",
     fade: "fade-up",
   },
   {
@@ -38,7 +38,7 @@ export const ProjectsList = [
     tech: "HTML/CSS/Javascript",
     img: <img src={Img4} alt="Photoshop" className="project-img"></img>,
     link: "https://pokemon-starters-4.netlify.app",
-    hub: "https://github.com/WebDev-Chad/Pokemon-Starters",
+    hub: "https://github.com/MobileDev-Chad/Pokemon-Starters",
     fade: "fade-down",
   },
   {
@@ -46,8 +46,8 @@ export const ProjectsList = [
     name: "🚧SmashBros. Ecom🚧",
     tech: "ReactJS-Cart",
     img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
-    link: "https://github.com/WebDev-Chad/SmashBros.-Ecommerce",
-    hub: "https://github.com/WebDev-Chad/SmashBros.-Ecommerce",
+    link: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
+    hub: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
     fade: "fade-up",
   },
 ];
