@@ -8,6 +8,7 @@ import Svg7 from "../Images/redux.svg";
 import Svg8 from "../Images/git.svg";
 import Svg9 from "../Images/mongodb.svg";
 import Svg10 from "../Images/firebase.svg";
+import Svg11 from "../Images/socket.svg";
 
 export const SkillsList = [
   {
@@ -65,6 +66,11 @@ export const SkillsList = [
   {
     icon: <img src={Svg10} alt="Firebase" height="50" width="50"></img>,
     heading: "Firebase",
+    id: 12,
+  },
+  {
+    icon: <img src={Svg11} alt="Socket.io" height="50" width="50"></img>,
+    heading: "Socket.io",
     id: 12,
   },
 ];
