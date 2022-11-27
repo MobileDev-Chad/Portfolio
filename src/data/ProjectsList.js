@@ -46,7 +46,7 @@ export const ProjectsList = [
     name: "🚧SmashBros. Ecom🚧",
     tech: "ReactJS-Cart",
     img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
-    link: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
+    link: "https://smash-bros-cart-5.netlify.app",
     hub: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
     fade: "fade-up",
   },
