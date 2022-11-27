@@ -71,7 +71,7 @@ const Contact = () => {
             </a>
           </li>
         </ul>
-        <p>-Developed by Chadwin Allotey 2021-</p>
+        <p>-Developed by Chadwin Allotey{new Date().getFullYear()}-</p>
       </footer>
     </>
   );

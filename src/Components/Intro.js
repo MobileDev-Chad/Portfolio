@@ -11,7 +11,7 @@ const Intro = () => {
         data-aos-once="false"
       >
         <div className="intro-text">
-          <h2>Hi, I'm a Mobile</h2>
+          <h2>Hi, I'm a Frontend</h2>
           <h1
             data-aos="fade-down"
             data-aos-offset="200"
