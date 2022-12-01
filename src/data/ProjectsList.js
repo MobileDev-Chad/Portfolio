@@ -25,7 +25,7 @@ export const ProjectsList = [
   },
   {
     id: 3,
-    name: "Smash Bros. Website Clone",
+    name: "SmashBros. Clone",
     tech: "ReactJS-TypeScript",
     img: <img src={Img3} alt="Photoshop" className="project-img"></img>,
     link: "https://github.com/MobileDev-Chad/",
