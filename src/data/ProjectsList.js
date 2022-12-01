@@ -1,8 +1,8 @@
 import Img1 from "../Images/project-1.jpg";
 import Img2 from "../Images/project-2.jpg";
-import Img3 from "../Images/project-0.jpg";
+import Img3 from "../Images/project-3.jpg";
 import Img4 from "../Images/project-4.jpg";
-import Img5 from "../Images/project-0.jpg";
+import Img5 from "../Images/project-5.jpg";
 
 export const ProjectsList = [
   {
@@ -25,7 +25,7 @@ export const ProjectsList = [
   },
   {
     id: 3,
-    name: "Super Smash Bros. Website Clone",
+    name: "Smash Bros. Website Clone",
     tech: "ReactJS-TypeScript",
     img: <img src={Img3} alt="Photoshop" className="project-img"></img>,
     link: "https://github.com/MobileDev-Chad/",
