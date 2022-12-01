@@ -28,8 +28,8 @@ export const ProjectsList = [
     name: "SmashBros. Clone",
     tech: "ReactJS-TypeScript",
     img: <img src={Img3} alt="Photoshop" className="project-img"></img>,
-    link: "https://github.com/MobileDev-Chad/",
-    hub: "https://github.com/MobileDev-Chad/",
+    link: "https://smash-website-clone.netlify.app/",
+    hub: "https://github.com/MobileDev-Chad/SmashBros.-Website-Clone",
     fade: "fade-up",
   },
   {
