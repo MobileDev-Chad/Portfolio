@@ -1,10 +1,34 @@
 import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import emailjs from "emailjs-com";
 import "aos/dist/aos.css";
+import Swal from "sweetalert2";
+
+const SERVICE_ID = "service_wd7l01q";
+const TEMPLATE_ID = "template_tdl50w9";
+const PUBLIC_KEY = "YW6KbIh59quZFVzmN";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("contactMe");
- 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY).then(
+      (result) => {
+        console.log(result.text);
+        Swal.fire({
+          icon: "success",
+          title: "Message Sent Successfully",
+        });
+      },
+      (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: "error",
+          title: "Ooops, something went wrong",
+          text: error.text,
+        });
+      }
+    );
+    e.target.reset();
+  };
   return (
     <>
       <section
@@ -19,23 +43,37 @@ const Contact = () => {
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit}>
-          <input type="text" name="name" id="name" placeholder="Name*" />
-          <input id="email" type="email" name="email" placeholder="Email*" />
-          <ValidationError style={{color:"white"}}field="email" prefix="Email" errors={state.errors} />
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name*"
+            required
+          />
+
+          <label htmlFor="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email*"
+            required
+          />
+
+          <label htmlFor="message">Message:</label>
           <textarea
             id="message"
             name="message"
             placeholder="Message*"
+            required
           ></textarea>
 
           <input
             type="submit"
             className="contact-form-btn"
-            disabled={state.submitting}
             rel="noopener noreferrer"
           />
-          <ValidationError errors={state.errors} />
-          <div className="form-submitted">{state.succeeded && 'Submited - Thanks!'}</div>
         </form>
       </section>
       <footer className="center">
@@ -71,7 +109,7 @@ const Contact = () => {
             </a>
           </li>
         </ul>
-        <p>-Developed by Chadwin Allotey{new Date().getFullYear()}-</p>
+        <p>-Developed by Chadwin Allotey 2022-</p>
       </footer>
     </>
   );
