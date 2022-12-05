@@ -27,7 +27,7 @@ const About = () => {
 
           <div className="about-text-right">
             <i class="fab fa-leanpub"></i>
-            Learning is <br />
+            Knowledge is <br />
             <b>Power!</b>
           </div>
         </div>
