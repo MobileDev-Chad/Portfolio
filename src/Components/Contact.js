@@ -43,7 +43,7 @@ const Contact = () => {
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit}>
-          <label htmlFor="name" style={{ color: focused ? "blue" : "white" }}>
+          <label htmlFor="name" style={{ color: "white" }}>
             Name:
           </label>
           <input
@@ -54,7 +54,7 @@ const Contact = () => {
             required
           />
 
-          <label htmlFor="email" style={{ color: focused ? "blue" : "white" }}>
+          <label htmlFor="email" style={{ color: "white" }}>
             Email:
           </label>
           <input
@@ -65,10 +65,7 @@ const Contact = () => {
             required
           />
 
-          <label
-            htmlFor="message"
-            style={{ color: focused ? "blue" : "white" }}
-          >
+          <label htmlFor="message" style={{ color: "white" }}>
             Message:
           </label>
           <textarea
