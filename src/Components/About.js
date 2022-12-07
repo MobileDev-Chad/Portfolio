@@ -14,7 +14,7 @@ const About = () => {
 
         <div className="about-text">
           <div className="about-text-left">
-            Hi, I'm <b>Chadwin Allotey</b>
+            My name's <b>Chadwin Allotey.</b>
             <p data-aos="fade-up" data-aos-once="true">
               I'm a junior developer with a passion for learning. I enjoy
               developing simple, clean and slick websites that provide real
