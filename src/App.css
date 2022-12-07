@@ -169,7 +169,7 @@ body {
 .intro {
   width: 100%;
   height: 100vh;
-  background-image: url(./Images/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+  background-image: url(./Images/emile-perron-xrVDYZRGdw4-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -595,8 +595,6 @@ footer p {
   .socialIcons li {
     font-size: 3.2rem;
   }
-  footer {
-    height: 5.5vh;
-  }
+
 }
 /* End of Responsive */

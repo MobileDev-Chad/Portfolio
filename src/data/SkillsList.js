@@ -8,6 +8,7 @@ import Svg8 from "../Images/git.svg";
 import Svg9 from "../Images/mongodb.svg";
 import Svg10 from "../Images/firebase.svg";
 import Svg11 from "../Images/socket.svg";
+import Svg13 from "../Images/bootstrap-5-1.svg";
 
 export const SkillsList = [
   {
@@ -58,9 +59,9 @@ export const SkillsList = [
   },
 
   {
-    icon: <i className="fas fa-code" style={{ color: "#eee" }}></i>,
-    heading: "Rest API",
-    id: 10,
+    icon:  <img src={Svg13} alt="MongoDb" height="50" width="50"></img>,
+    heading: "Bootstrap 5",
+    id: 13,
   },
   {
     icon: <img src={Svg11} alt="Socketio" height="50" width="50"></img>,
