@@ -1,7 +1,6 @@
 import Img1 from "../Images/project-1.jpg";
 import Img2 from "../Images/project-2.jpg";
 import Img3 from "../Images/project-3.jpg";
-import Img4 from "../Images/project-4.jpg";
 import Img5 from "../Images/project-5.jpg";
 
 export const ProjectsList = [
@@ -31,15 +30,6 @@ export const ProjectsList = [
     link: "https://smash-website-clone.netlify.app/",
     hub: "https://github.com/MobileDev-Chad/SmashBros.-Website-Clone",
     fade: "fade-up",
-  },
-  {
-    id: 4,
-    name: "Pokemon Starters",
-    tech: "HTML/CSS/Javascript",
-    img: <img src={Img4} alt="Photoshop" className="project-img"></img>,
-    link: "https://pokemon-starters-4.netlify.app",
-    hub: "https://github.com/MobileDev-Chad/Pokemon-Starters",
-    fade: "fade-down",
   },
   {
     id: 5,
