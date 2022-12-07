@@ -33,10 +33,10 @@ export const ProjectsList = [
   },
   {
     id: 5,
-    name: "SmashBros. Eccom",
+    name: "SmashBros. Ecomm",
     tech: "ReactJS-ReduxTK",
     img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
-    link: "https://smashbros-eccom.netlify.app",
+    link: "https://smashbros-ecomm.netlify.app",
     hub: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
     fade: "fade-up",
   },
