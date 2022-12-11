@@ -374,7 +374,7 @@ body {
 
 .project-technologies {
   font-size: 1.8rem;
-  color: #e41c6f;
+  color: #291ce4;
 }
 
 .project-img {
@@ -391,7 +391,7 @@ body {
   font-weight: 500;
   color: #333;
   letter-spacing: 0.1rem;
-  border: 0.3rem solid #e41c6f;
+  border: 0.3rem solid #000000;
   padding: 0 1rem;
   background-color: #fff;
   position: absolute;
@@ -409,7 +409,7 @@ body {
   font-weight: 500;
   color: #333;
   letter-spacing: 0.1rem;
-  border: 0.3rem solid #e41c6f;
+  border: 0.3rem solid #000000;
   padding: 0 1rem;
   background-color: #fff;
   position: absolute;

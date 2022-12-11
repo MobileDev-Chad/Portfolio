@@ -42,7 +42,7 @@ const Portfolio = () => {
                 rel="noreferrer"
                 className="project-hub"
               >
-                Code
+                GitHub
               </a>
             </div>
           ))}
