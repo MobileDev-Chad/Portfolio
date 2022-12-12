@@ -14,6 +14,15 @@ export const ProjectsList = [
     hub: "https://github.com/MobileDev-Chad/SmashBros.-Website-Clone",
     fade: "fade-up",
   },
+  {
+    id: 5,
+    name: "SmashBros. Ecomm",
+    tech: "ReactJS-ReduxTK",
+    img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
+    link: "https://smashbros-ecomm.netlify.app",
+    hub: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
+    fade: "fade-up",
+  },
   // {
     //   id: 2,
     //   name: "FrontEnd Prep.",
@@ -39,15 +48,6 @@ export const ProjectsList = [
     img: <img src={Img4} alt="Photoshop" className="project-img"></img>,
     link: "https://pokemon-starters-4.netlify.app",
     hub: "https://github.com/MobileDev-Chad/Pokemon-Starters",
-    fade: "fade-up",
-  },
-  {
-    id: 5,
-    name: "SmashBros. Ecomm",
-    tech: "ReactJS-ReduxTK",
-    img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
-    link: "https://smashbros-ecomm.netlify.app",
-    hub: "https://github.com/MobileDev-Chad/SmashBros.-Ecommerce",
     fade: "fade-up",
   },
 ];
