@@ -10,7 +10,7 @@
   list-style-type: none;
   font-family: "Poppins", sans-serif;
 
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
 }
 html {
   font-size: 62.5%;
