@@ -1,5 +1,5 @@
 import Img1 from "../Images/project-1.jpg";
-import Img2 from "../Images/project-2.jpg";
+// import Img2 from "../Images/project-2.jpg";
 import Img3 from "../Images/project-3.jpg";
 import Img4 from "../Images/project-4.jpg";
 import Img5 from "../Images/project-5.jpg";
@@ -16,8 +16,8 @@ export const ProjectsList = [
   },
   // {
   //   id: 2,
-  //   name: "Paypal Clone",
-  //   tech: "HTML/CSS/Javascript",
+  //   name: "FrontEnd Prep.",
+  //   tech: "React TS API",
   //   img: <img src={Img2} alt="Photoshop" className="project-img"></img>,
   //   link: "http://paypal-clone1.netlify.app",
   //   hub: "https://github.com/MobileDev-Chad/Paypal-Clone",
