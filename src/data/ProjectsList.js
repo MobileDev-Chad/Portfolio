@@ -6,24 +6,6 @@ import Img5 from "../Images/project-5.jpg";
 
 export const ProjectsList = [
   {
-    id: 1,
-    name: "Cooking App",
-    tech: "ReactJS-API",
-    img: <img src={Img1} alt="Photoshop" className="project-img"></img>,
-    link: "https://cooking-app-1.netlify.app",
-    hub: "https://github.com/MobileDev-Chad/CookingApp",
-    fade: "fade-up",
-  },
-  // {
-  //   id: 2,
-  //   name: "FrontEnd Prep.",
-  //   tech: "React TS API",
-  //   img: <img src={Img2} alt="Photoshop" className="project-img"></img>,
-  //   link: "http://paypal-clone1.netlify.app",
-  //   hub: "https://github.com/MobileDev-Chad/Paypal-Clone",
-  //   fade: "fade-down",
-  // },
-  {
     id: 3,
     name: "SmashBros. Clone",
     tech: "ReactJS-TypeScript",
@@ -32,6 +14,24 @@ export const ProjectsList = [
     hub: "https://github.com/MobileDev-Chad/SmashBros.-Website-Clone",
     fade: "fade-up",
   },
+  // {
+    //   id: 2,
+    //   name: "FrontEnd Prep.",
+    //   tech: "React TS API",
+    //   img: <img src={Img2} alt="Photoshop" className="project-img"></img>,
+    //   link: "http://paypal-clone1.netlify.app",
+    //   hub: "https://github.com/MobileDev-Chad/Paypal-Clone",
+    //   fade: "fade-down",
+    // },
+    {
+      id: 1,
+      name: "Cooking App",
+      tech: "ReactJS-API",
+      img: <img src={Img1} alt="Photoshop" className="project-img"></img>,
+      link: "https://cooking-app-1.netlify.app",
+      hub: "https://github.com/MobileDev-Chad/CookingApp",
+      fade: "fade-up",
+    },
   {
     id: 4,
     name: "Pokemon Starters",
