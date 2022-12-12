@@ -10,7 +10,7 @@
   list-style-type: none;
   font-family: "Poppins", sans-serif;
 
-  /* outline: solid 1px red; */
+  outline: solid 1px red;
 }
 html {
   font-size: 62.5%;
@@ -488,11 +488,14 @@ body {
 
 .socialIcons li a {
   color: #000000;
-  padding: 0 5rem;
+  padding: 0rem 5rem;
 }
 
 .socialIcons li a:hover {
   color: #ffffff;
+}
+.socialIcons i {
+  margin-bottom: 2rem;
 }
 
 footer {
