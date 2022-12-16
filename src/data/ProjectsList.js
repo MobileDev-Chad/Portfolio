@@ -8,7 +8,7 @@ export const ProjectsList = [
   {
     id: 3,
     name: "SmashBros. Clone",
-    tech: "Current Project...",
+    tech: "React-TypeScript-SplideJS",
     img: <img src={Img5} alt="Photoshop" className="project-img"></img>,
     link: "https://smash-website-clone.netlify.app/",
     hub: "https://github.com/MobileDev-Chad/SmashBros.-Website-Clone",
