@@ -347,7 +347,7 @@ body {
   transition: box-shadow 0.5s;
 }
 
-.project:hover {
+.project {
   box-shadow: 1rem 1rem 1rem #777;
 }
 
@@ -360,9 +360,9 @@ body {
   transition: top 0.3s;
 }
 
-.project:hover .project-text {
+.project .project-text {
   top: 3.5rem;
-  transition: top 0.3s 0.3s;
+  /* transition: top 0.3s 0.3s; */
 }
 
 .project-name {
@@ -382,7 +382,7 @@ body {
   transition: opacity 0.3s;
 }
 
-.project:hover .project-img {
+.project .project-img {
   opacity: 0.2;
 }
 
@@ -396,12 +396,12 @@ body {
   background-color: #fff;
   position: absolute;
   bottom: -5rem;
-  transition: bottom 0.3s;
+  /* transition: bottom 0.3s; */
 }
 
-.project:hover .project-link {
+.project .project-link {
   bottom: 5rem;
-  transition: bottom 0.3s 0.3s;
+  /* transition: bottom 0.3s 0.3s; */
 }
 
 .project-hub {
@@ -414,12 +414,12 @@ body {
   background-color: #fff;
   position: absolute;
   bottom: -5rem;
-  transition: bottom 0.3s;
+  /* transition: bottom 0.3s; */
 }
 
-.project:hover .project-hub {
+.project .project-hub {
   bottom: 0.8rem;
-  transition: bottom 0.3s 0.3s;
+  /* transition: bottom 0.3s 0.3s; */
 }
 /* End of Projects */
 
